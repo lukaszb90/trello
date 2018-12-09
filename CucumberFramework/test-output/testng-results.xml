@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13285" started-at="2018-12-09T20:56:09Z" finished-at="2018-12-09T20:56:22Z">
+  <suite name="Default suite" duration-ms="15023" started-at="2018-12-09T22:24:27Z" finished-at="2018-12-09T22:24:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13285" started-at="2018-12-09T20:56:09Z" finished-at="2018-12-09T20:56:22Z">
+    <test name="Default test" duration-ms="15023" started-at="2018-12-09T22:24:27Z" finished-at="2018-12-09T22:24:42Z">
       <class name="steps.RegisterAccountSteps">
-        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:steps.RegisterAccountSteps@6a4f787b]" name="init" is-config="true" duration-ms="4926" started-at="2018-12-09T21:56:04Z" finished-at="2018-12-09T21:56:09Z">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:steps.RegisterAccountSteps@6a4f787b]" name="init" is-config="true" duration-ms="4784" started-at="2018-12-09T23:24:23Z" finished-at="2018-12-09T23:24:27Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="aaa()[pri:3, instance:steps.RegisterAccountSteps@6a4f787b]" name="aaa" duration-ms="13269" started-at="2018-12-09T21:56:09Z" description="???" finished-at="2018-12-09T21:56:22Z">
+        <test-method status="PASS" signature="navigateToTrelloWebsite()[pri:3, instance:steps.RegisterAccountSteps@6a4f787b]" name="navigateToTrelloWebsite" duration-ms="15012" started-at="2018-12-09T23:24:27Z" description="Navigate to Trello website" finished-at="2018-12-09T23:24:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aaa -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:steps.RegisterAccountSteps@6a4f787b]" name="tearDown" is-config="true" duration-ms="1628" started-at="2018-12-09T21:56:22Z" finished-at="2018-12-09T21:56:24Z">
+        </test-method> <!-- navigateToTrelloWebsite -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:steps.RegisterAccountSteps@6a4f787b]" name="tearDown" is-config="true" duration-ms="1011" started-at="2018-12-09T23:24:42Z" finished-at="2018-12-09T23:24:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
