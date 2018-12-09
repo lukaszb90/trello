@@ -2,6 +2,7 @@ package resources;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
@@ -9,7 +10,6 @@ public class Browser {
 
 	private static Browser instance = null;
 	private static WebDriver driver;
-	DesiredCapabilities IEDesiredCapabilities = DesiredCapabilities.internetExplorer ();
 
 	/**
 	 * Constructor
@@ -29,6 +29,10 @@ public class Browser {
 		switch (option) {
 			case 1:
 				Browser.setDriver (new ChromeDriver ());
+//				ChromeOptions options = new ChromeOptions();
+//				options.addArguments("--incognito");
+//				DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+//				capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 				driver.manage ().window ().maximize ();
 				break;
 

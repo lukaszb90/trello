@@ -6,6 +6,9 @@ import javax.swing.JOptionPane;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 import org.testng.annotations.AfterSuite;
@@ -21,7 +24,7 @@ public class BaseSetup {
 	protected static JavascriptExecutor js;
 
 	/**
-	 * Param browserOption 1 Chrome 2 Firefox 3 IE
+	 * Param browserOption 1 Chrome 2 Firefox 3
 	 * 
 	 * @param browserOption
 	 * @throws Exception
