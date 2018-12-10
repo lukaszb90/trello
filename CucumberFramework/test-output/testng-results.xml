@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="13" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15023" started-at="2018-12-09T22:24:27Z" finished-at="2018-12-09T22:24:42Z">
+  <suite name="Default suite" duration-ms="64877" started-at="2018-12-10T23:09:05Z" finished-at="2018-12-10T23:10:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15023" started-at="2018-12-09T22:24:27Z" finished-at="2018-12-09T22:24:42Z">
+    <test name="Default test" duration-ms="64877" started-at="2018-12-10T23:09:05Z" finished-at="2018-12-10T23:10:09Z">
       <class name="steps.RegisterAccountSteps">
-        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:steps.RegisterAccountSteps@6a4f787b]" name="init" is-config="true" duration-ms="4784" started-at="2018-12-09T23:24:23Z" finished-at="2018-12-09T23:24:27Z">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:steps.RegisterAccountSteps@6ca8564a]" name="init" is-config="true" duration-ms="4613" started-at="2018-12-11T00:09:00Z" finished-at="2018-12-11T00:09:05Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,59 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="navigateToTrelloWebsite()[pri:3, instance:steps.RegisterAccountSteps@6a4f787b]" name="navigateToTrelloWebsite" duration-ms="15012" started-at="2018-12-09T23:24:27Z" description="Navigate to Trello website" finished-at="2018-12-09T23:24:42Z">
+        <test-method status="PASS" signature="navigateToTrelloWebsite()[pri:3, instance:steps.RegisterAccountSteps@6ca8564a]" name="navigateToTrelloWebsite" duration-ms="4310" started-at="2018-12-11T00:09:05Z" description="Navigate to Trello website" finished-at="2018-12-11T00:09:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToTrelloWebsite -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:steps.RegisterAccountSteps@6a4f787b]" name="tearDown" is-config="true" duration-ms="1011" started-at="2018-12-09T23:24:42Z" finished-at="2018-12-09T23:24:43Z">
+        <test-method status="PASS" signature="closeGDPR()[pri:4, instance:steps.RegisterAccountSteps@6ca8564a]" name="closeGDPR" duration-ms="245" started-at="2018-12-11T00:09:09Z" description="Close GDPR bar if present" finished-at="2018-12-11T00:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeGDPR -->
+        <test-method status="PASS" signature="switchLanguageToEnglish()[pri:5, instance:steps.RegisterAccountSteps@6ca8564a]" name="switchLanguageToEnglish" duration-ms="6196" started-at="2018-12-11T00:09:09Z" description="Switch langauge to English" finished-at="2018-12-11T00:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchLanguageToEnglish -->
+        <test-method status="PASS" signature="clickOnSignUp()[pri:6, instance:steps.RegisterAccountSteps@6ca8564a]" name="clickOnSignUp" duration-ms="5030" started-at="2018-12-11T00:09:15Z" description="Click on sign up" finished-at="2018-12-11T00:09:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSignUp -->
+        <test-method status="PASS" signature="createAccountOnEmptyField()[pri:7, instance:steps.RegisterAccountSteps@6ca8564a]" name="createAccountOnEmptyField" duration-ms="76" started-at="2018-12-11T00:09:20Z" description="Try to create account o empty fields" finished-at="2018-12-11T00:09:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountOnEmptyField -->
+        <test-method status="PASS" signature="enterName()[pri:8, instance:steps.RegisterAccountSteps@6ca8564a]" name="enterName" duration-ms="372" started-at="2018-12-11T00:09:20Z" description="Enter name" finished-at="2018-12-11T00:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterName -->
+        <test-method status="PASS" signature="enterInvalidEmail()[pri:9, instance:steps.RegisterAccountSteps@6ca8564a]" name="enterInvalidEmail" duration-ms="3720" started-at="2018-12-11T00:09:21Z" description="Enter invaild e-mail" finished-at="2018-12-11T00:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInvalidEmail -->
+        <test-method status="PASS" signature="enterEMail()[pri:10, instance:steps.RegisterAccountSteps@6ca8564a]" name="enterEMail" duration-ms="343" started-at="2018-12-11T00:09:24Z" description="Enter e-mail" finished-at="2018-12-11T00:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEMail -->
+        <test-method status="PASS" signature="enterInvalidPassword()[pri:11, instance:steps.RegisterAccountSteps@6ca8564a]" name="enterInvalidPassword" duration-ms="2717" started-at="2018-12-11T00:09:25Z" description="Enter invalid password" finished-at="2018-12-11T00:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInvalidPassword -->
+        <test-method status="PASS" signature="enterPassword()[pri:12, instance:steps.RegisterAccountSteps@6ca8564a]" name="enterPassword" duration-ms="374" started-at="2018-12-11T00:09:28Z" description="Enter password" finished-at="2018-12-11T00:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword -->
+        <test-method status="PASS" signature="gogleButtonInvisible()[pri:13, instance:steps.RegisterAccountSteps@6ca8564a]" name="gogleButtonInvisible" duration-ms="55" started-at="2018-12-11T00:09:28Z" description="Check if google button is invisible" finished-at="2018-12-11T00:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gogleButtonInvisible -->
+        <test-method status="PASS" signature="clickOnCreateNewAccountButton()[pri:14, instance:steps.RegisterAccountSteps@6ca8564a]" name="clickOnCreateNewAccountButton" duration-ms="35118" started-at="2018-12-11T00:09:28Z" description="Click on create new account button" finished-at="2018-12-11T00:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCreateNewAccountButton -->
+        <test-method status="PASS" signature="logout()[pri:15, instance:steps.RegisterAccountSteps@6ca8564a]" name="logout" duration-ms="6289" started-at="2018-12-11T00:10:03Z" description="Logout" finished-at="2018-12-11T00:10:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:steps.RegisterAccountSteps@6ca8564a]" name="tearDown" is-config="true" duration-ms="1073" started-at="2018-12-11T00:10:09Z" finished-at="2018-12-11T00:10:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
