@@ -1,0 +1,385 @@
+<html>
+<head>
+<title>TestNG:  Login into Trello test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login into Trello test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 11 20:44:21 CET 2018</td>
+</tr>
+<tr><td>Total time:</td><td>63 seconds (63308 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='steps.LogIn.clickOnCreateNewAccountButton()'><b>clickOnCreateNewAccountButton</b><br>Test class: steps.LogIn<br>Test method: Click on create new account button<br/>
+<a href="#Output-457247584" onClick='toggleBox("Output-457247584", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-457247584" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-457247584">
+
+11/12/2018 20:45:16 : Test Passed               : clickOnCreateNewAccountButton           
+<br/>
+
+11/12/2018 20:45:16 : Test Passed               : clickOnCreateNewAccountButton           
+<br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.clickOnSignUp()'><b>clickOnSignUp</b><br>Test class: steps.LogIn<br>Test method: Click on sign up<br/>
+<a href="#Output-1281025083" onClick='toggleBox("Output-1281025083", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1281025083" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1281025083">
+
+11/12/2018 20:44:38 : Test Passed               : clickOnSignUp                           
+<br/>
+
+11/12/2018 20:44:38 : Test Passed               : clickOnSignUp                           
+<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.closeGDPR()'><b>closeGDPR</b><br>Test class: steps.LogIn<br>Test method: Close GDPR bar if present<br/>
+<a href="#Output-573200870" onClick='toggleBox("Output-573200870", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-573200870" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-573200870">
+
+11/12/2018 20:44:26 : Test Passed               : closeGDPR                               
+<br/>
+
+11/12/2018 20:44:26 : Test Passed               : closeGDPR                               
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.createAccountOnEmptyField()'><b>createAccountOnEmptyField</b><br>Test class: steps.LogIn<br>Test method: Try to create account o empty fields<br/>
+<a href="#Output-40170008" onClick='toggleBox("Output-40170008", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-40170008" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-40170008">
+
+11/12/2018 20:44:38 : Test Passed               : createAccountOnEmptyField               
+<br/>
+
+11/12/2018 20:44:38 : Test Passed               : createAccountOnEmptyField               
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.enterEMail()'><b>enterEMail</b><br>Test class: steps.LogIn<br>Test method: Enter e-mail<br/>
+<a href="#Output-899929247" onClick='toggleBox("Output-899929247", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-899929247" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-899929247">
+
+11/12/2018 20:44:42 : Test Passed               : enterEMail                              
+<br/>
+
+11/12/2018 20:44:42 : Test Passed               : enterEMail                              
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.enterInvalidEmail()'><b>enterInvalidEmail</b><br>Test class: steps.LogIn<br>Test method: Enter invaild e-mail<br/>
+<a href="#Output-2030411960" onClick='toggleBox("Output-2030411960", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2030411960" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2030411960">
+
+11/12/2018 20:44:42 : Test Passed               : enterInvalidEmail                       
+<br/>
+
+11/12/2018 20:44:42 : Test Passed               : enterInvalidEmail                       
+<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.enterInvalidPassword()'><b>enterInvalidPassword</b><br>Test class: steps.LogIn<br>Test method: Enter invalid password<br/>
+<a href="#Output-1200470358" onClick='toggleBox("Output-1200470358", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1200470358" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1200470358">
+
+11/12/2018 20:44:45 : Test Passed               : enterInvalidPassword                    
+<br/>
+
+11/12/2018 20:44:45 : Test Passed               : enterInvalidPassword                    
+<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.enterName()'><b>enterName</b><br>Test class: steps.LogIn<br>Test method: Enter name<br/>
+<a href="#Output-2112233878" onClick='toggleBox("Output-2112233878", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2112233878" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2112233878">
+
+11/12/2018 20:44:38 : Test Passed               : enterName                               
+<br/>
+
+11/12/2018 20:44:38 : Test Passed               : enterName                               
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.enterPassword()'><b>enterPassword</b><br>Test class: steps.LogIn<br>Test method: Enter password<br/>
+<a href="#Output-1822525972" onClick='toggleBox("Output-1822525972", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1822525972" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1822525972">
+
+11/12/2018 20:44:45 : Test Passed               : enterPassword                           
+<br/>
+
+11/12/2018 20:44:45 : Test Passed               : enterPassword                           
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.gogleButtonInvisible()'><b>gogleButtonInvisible</b><br>Test class: steps.LogIn<br>Test method: Check if google button is invisible<br/>
+<a href="#Output-2068897588" onClick='toggleBox("Output-2068897588", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2068897588" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2068897588">
+
+11/12/2018 20:44:45 : Test Passed               : gogleButtonInvisible                    
+<br/>
+
+11/12/2018 20:44:45 : Test Passed               : gogleButtonInvisible                    
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.logIn()'><b>logIn</b><br>Test class: steps.LogIn<br>Test method: Log in<br/>
+<a href="#Output-1871612052" onClick='toggleBox("Output-1871612052", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1871612052" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1871612052">
+
+11/12/2018 20:45:24 : Test Passed               : logIn                                   
+<br/>
+
+11/12/2018 20:45:24 : Test Passed               : logIn                                   
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.logInWithEmptyFields()'><b>logInWithEmptyFields</b><br>Test class: steps.LogIn<br>Test method: Try to log in withempty fields<br/>
+<a href="#Output-516537656" onClick='toggleBox("Output-516537656", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-516537656" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-516537656">
+
+11/12/2018 20:45:21 : Test Passed               : logInWithEmptyFields                    
+<br/>
+
+11/12/2018 20:45:21 : Test Passed               : logInWithEmptyFields                    
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.logInWithWrongEmail()'><b>logInWithWrongEmail</b><br>Test class: steps.LogIn<br>Test method: Try to log in with not existing e-mail adress<br/>
+<a href="#Output-1160649162" onClick='toggleBox("Output-1160649162", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1160649162" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1160649162">
+
+11/12/2018 20:45:23 : Test Passed               : logInWithWrongEmail                     
+<br/>
+
+11/12/2018 20:45:23 : Test Passed               : logInWithWrongEmail                     
+<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.logInWithWrongPassword()'><b>logInWithWrongPassword</b><br>Test class: steps.LogIn<br>Test method: Try to log in with incorrect password<br/>
+<a href="#Output-1796047085" onClick='toggleBox("Output-1796047085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1796047085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1796047085">
+
+11/12/2018 20:45:24 : Test Passed               : logInWithWrongPassword                  
+<br/>
+
+11/12/2018 20:45:24 : Test Passed               : logInWithWrongPassword                  
+<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.logout()'><b>logout</b><br>Test class: steps.LogIn<br>Test method: Logout<br/>
+<a href="#Output-610454273" onClick='toggleBox("Output-610454273", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-610454273" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-610454273">
+
+11/12/2018 20:45:19 : Test Passed               : logout                                  
+<br/>
+
+11/12/2018 20:45:19 : Test Passed               : logout                                  
+<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.navigateToTrelloSite()'><b>navigateToTrelloSite</b><br>Test class: steps.LogIn<br>Test method: Navigate to Trello site<br/>
+<a href="#Output-2003147568" onClick='toggleBox("Output-2003147568", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2003147568" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2003147568">
+
+11/12/2018 20:45:21 : Test Passed               : navigateToTrelloSite                    
+<br/>
+
+11/12/2018 20:45:21 : Test Passed               : navigateToTrelloSite                    
+<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.navigateToTrelloWebsite()'><b>navigateToTrelloWebsite</b><br>Test class: steps.LogIn<br>Test method: Navigate to Trello website<br/>
+<a href="#Output-1408482749" onClick='toggleBox("Output-1408482749", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1408482749" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1408482749">
+
+11/12/2018 20:44:26 : Test Passed               : navigateToTrelloWebsite                 
+<br/>
+
+11/12/2018 20:44:26 : Test Passed               : navigateToTrelloWebsite                 
+<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>steps.LogIn@553f17c</td></tr>
+<tr>
+<td title='steps.LogIn.switchLanguageToEnglish()'><b>switchLanguageToEnglish</b><br>Test class: steps.LogIn<br>Test method: Switch langauge to English<br/>
+<a href="#Output-2003463579" onClick='toggleBox("Output-2003463579", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2003463579" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2003463579">
+
+11/12/2018 20:44:33 : Test Passed               : switchLanguageToEnglish                 
+<br/>
+
+11/12/2018 20:44:33 : Test Passed               : switchLanguageToEnglish                 
+<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>steps.LogIn@553f17c</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,13 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="18" passed="18">
   <reporter-output>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:21 : Test Batch Start          : Login into Trello test                  
+===================================================================
+]]>
+    </line>
+    <line>
+      <![CDATA[Test Batch Start
+===================================================================
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:21 : Test Batch Start          : Login into Trello test                  
+===================================================================
+]]>
+    </line>
+    <line>
+      <![CDATA[Test Batch Start
+===================================================================
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:26 : Test Passed               : navigateToTrelloWebsite                 
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:26 : Test Passed               : navigateToTrelloWebsite                 
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:26 : Test Passed               : closeGDPR                               
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:26 : Test Passed               : closeGDPR                               
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:33 : Test Passed               : switchLanguageToEnglish                 
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:33 : Test Passed               : switchLanguageToEnglish                 
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:38 : Test Passed               : clickOnSignUp                           
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:38 : Test Passed               : clickOnSignUp                           
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:38 : Test Passed               : createAccountOnEmptyField               
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:38 : Test Passed               : createAccountOnEmptyField               
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:38 : Test Passed               : enterName                               
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:38 : Test Passed               : enterName                               
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:42 : Test Passed               : enterInvalidEmail                       
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:42 : Test Passed               : enterInvalidEmail                       
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:42 : Test Passed               : enterEMail                              
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:42 : Test Passed               : enterEMail                              
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:45 : Test Passed               : enterInvalidPassword                    
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:45 : Test Passed               : enterInvalidPassword                    
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:45 : Test Passed               : enterPassword                           
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:45 : Test Passed               : enterPassword                           
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:45 : Test Passed               : gogleButtonInvisible                    
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:44:45 : Test Passed               : gogleButtonInvisible                    
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:45:16 : Test Passed               : clickOnCreateNewAccountButton           
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:45:16 : Test Passed               : clickOnCreateNewAccountButton           
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:45:19 : Test Passed               : logout                                  
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:45:19 : Test Passed               : logout                                  
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:45:21 : Test Passed               : navigateToTrelloSite                    
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:45:21 : Test Passed               : navigateToTrelloSite                    
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:45:21 : Test Passed               : logInWithEmptyFields                    
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:45:21 : Test Passed               : logInWithEmptyFields                    
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:45:23 : Test Passed               : logInWithWrongEmail                     
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:45:23 : Test Passed               : logInWithWrongEmail                     
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:45:24 : Test Passed               : logInWithWrongPassword                  
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:45:24 : Test Passed               : logInWithWrongPassword                  
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:45:24 : Test Passed               : logIn                                   
+]]>
+    </line>
+    <line>
+      <![CDATA[
+11/12/2018 20:45:24 : Test Passed               : logIn                                   
+]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="76128" started-at="2018-12-11T19:21:32Z" finished-at="2018-12-11T19:22:48Z">
+  <suite name="Trello -test suite" duration-ms="63308" started-at="2018-12-11T19:44:21Z" finished-at="2018-12-11T19:45:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="76128" started-at="2018-12-11T19:21:32Z" finished-at="2018-12-11T19:22:48Z">
+    <test name="Login into Trello test" duration-ms="63308" started-at="2018-12-11T19:44:21Z" finished-at="2018-12-11T19:45:24Z">
       <class name="steps.LogIn">
-        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:steps.LogIn@15eb5ee5]" name="init" is-config="true" duration-ms="5354" started-at="2018-12-11T20:21:26Z" finished-at="2018-12-11T20:21:32Z">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:steps.LogIn@553f17c]" name="init" is-config="true" duration-ms="4840" started-at="2018-12-11T20:44:16Z" finished-at="2018-12-11T20:44:21Z">
           <params>
             <param index="0">
               <value>
@@ -18,83 +220,263 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="navigateToTrelloWebsite()[pri:3, instance:steps.LogIn@15eb5ee5]" name="navigateToTrelloWebsite" duration-ms="6764" started-at="2018-12-11T20:21:32Z" description="Navigate to Trello website" finished-at="2018-12-11T20:21:38Z">
+        <test-method status="PASS" signature="navigateToTrelloWebsite()[pri:3, instance:steps.LogIn@553f17c]" name="navigateToTrelloWebsite" duration-ms="4688" started-at="2018-12-11T20:44:21Z" description="Navigate to Trello website" finished-at="2018-12-11T20:44:26Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:26 : Test Passed               : navigateToTrelloWebsite                 
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:26 : Test Passed               : navigateToTrelloWebsite                 
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- navigateToTrelloWebsite -->
-        <test-method status="PASS" signature="closeGDPR()[pri:4, instance:steps.LogIn@15eb5ee5]" name="closeGDPR" duration-ms="85" started-at="2018-12-11T20:21:38Z" description="Close GDPR bar if present" finished-at="2018-12-11T20:21:39Z">
+        <test-method status="PASS" signature="closeGDPR()[pri:4, instance:steps.LogIn@553f17c]" name="closeGDPR" duration-ms="276" started-at="2018-12-11T20:44:26Z" description="Close GDPR bar if present" finished-at="2018-12-11T20:44:26Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:26 : Test Passed               : closeGDPR                               
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:26 : Test Passed               : closeGDPR                               
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- closeGDPR -->
-        <test-method status="PASS" signature="switchLanguageToEnglish()[pri:5, instance:steps.LogIn@15eb5ee5]" name="switchLanguageToEnglish" duration-ms="2248" started-at="2018-12-11T20:21:39Z" description="Switch langauge to English" finished-at="2018-12-11T20:21:41Z">
+        <test-method status="PASS" signature="switchLanguageToEnglish()[pri:5, instance:steps.LogIn@553f17c]" name="switchLanguageToEnglish" duration-ms="6469" started-at="2018-12-11T20:44:26Z" description="Switch langauge to English" finished-at="2018-12-11T20:44:33Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:33 : Test Passed               : switchLanguageToEnglish                 
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:33 : Test Passed               : switchLanguageToEnglish                 
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- switchLanguageToEnglish -->
-        <test-method status="PASS" signature="clickOnSignUp()[pri:6, instance:steps.LogIn@15eb5ee5]" name="clickOnSignUp" duration-ms="5268" started-at="2018-12-11T20:21:41Z" description="Click on sign up" finished-at="2018-12-11T20:21:46Z">
+        <test-method status="PASS" signature="clickOnSignUp()[pri:6, instance:steps.LogIn@553f17c]" name="clickOnSignUp" duration-ms="5088" started-at="2018-12-11T20:44:33Z" description="Click on sign up" finished-at="2018-12-11T20:44:38Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:38 : Test Passed               : clickOnSignUp                           
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:38 : Test Passed               : clickOnSignUp                           
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- clickOnSignUp -->
-        <test-method status="PASS" signature="createAccountOnEmptyField()[pri:7, instance:steps.LogIn@15eb5ee5]" name="createAccountOnEmptyField" duration-ms="131" started-at="2018-12-11T20:21:46Z" description="Try to create account o empty fields" finished-at="2018-12-11T20:21:46Z">
+        <test-method status="PASS" signature="createAccountOnEmptyField()[pri:7, instance:steps.LogIn@553f17c]" name="createAccountOnEmptyField" duration-ms="97" started-at="2018-12-11T20:44:38Z" description="Try to create account o empty fields" finished-at="2018-12-11T20:44:38Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:38 : Test Passed               : createAccountOnEmptyField               
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:38 : Test Passed               : createAccountOnEmptyField               
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- createAccountOnEmptyField -->
-        <test-method status="PASS" signature="enterName()[pri:8, instance:steps.LogIn@15eb5ee5]" name="enterName" duration-ms="205" started-at="2018-12-11T20:21:46Z" description="Enter name" finished-at="2018-12-11T20:21:46Z">
+        <test-method status="PASS" signature="enterName()[pri:8, instance:steps.LogIn@553f17c]" name="enterName" duration-ms="375" started-at="2018-12-11T20:44:38Z" description="Enter name" finished-at="2018-12-11T20:44:38Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:38 : Test Passed               : enterName                               
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:38 : Test Passed               : enterName                               
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- enterName -->
-        <test-method status="PASS" signature="enterInvalidEmail()[pri:9, instance:steps.LogIn@15eb5ee5]" name="enterInvalidEmail" duration-ms="3350" started-at="2018-12-11T20:21:46Z" description="Enter invaild e-mail" finished-at="2018-12-11T20:21:50Z">
+        <test-method status="PASS" signature="enterInvalidEmail()[pri:9, instance:steps.LogIn@553f17c]" name="enterInvalidEmail" duration-ms="3787" started-at="2018-12-11T20:44:38Z" description="Enter invaild e-mail" finished-at="2018-12-11T20:44:42Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:42 : Test Passed               : enterInvalidEmail                       
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:42 : Test Passed               : enterInvalidEmail                       
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- enterInvalidEmail -->
-        <test-method status="PASS" signature="enterEMail()[pri:10, instance:steps.LogIn@15eb5ee5]" name="enterEMail" duration-ms="191" started-at="2018-12-11T20:21:50Z" description="Enter e-mail" finished-at="2018-12-11T20:21:50Z">
+        <test-method status="PASS" signature="enterEMail()[pri:10, instance:steps.LogIn@553f17c]" name="enterEMail" duration-ms="417" started-at="2018-12-11T20:44:42Z" description="Enter e-mail" finished-at="2018-12-11T20:44:42Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:42 : Test Passed               : enterEMail                              
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:42 : Test Passed               : enterEMail                              
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- enterEMail -->
-        <test-method status="PASS" signature="enterInvalidPassword()[pri:11, instance:steps.LogIn@15eb5ee5]" name="enterInvalidPassword" duration-ms="2293" started-at="2018-12-11T20:21:50Z" description="Enter invalid password" finished-at="2018-12-11T20:21:52Z">
+        <test-method status="PASS" signature="enterInvalidPassword()[pri:11, instance:steps.LogIn@553f17c]" name="enterInvalidPassword" duration-ms="2739" started-at="2018-12-11T20:44:42Z" description="Enter invalid password" finished-at="2018-12-11T20:44:45Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:45 : Test Passed               : enterInvalidPassword                    
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:45 : Test Passed               : enterInvalidPassword                    
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- enterInvalidPassword -->
-        <test-method status="PASS" signature="enterPassword()[pri:12, instance:steps.LogIn@15eb5ee5]" name="enterPassword" duration-ms="288" started-at="2018-12-11T20:21:52Z" description="Enter password" finished-at="2018-12-11T20:21:52Z">
+        <test-method status="PASS" signature="enterPassword()[pri:12, instance:steps.LogIn@553f17c]" name="enterPassword" duration-ms="328" started-at="2018-12-11T20:44:45Z" description="Enter password" finished-at="2018-12-11T20:44:45Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:45 : Test Passed               : enterPassword                           
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:45 : Test Passed               : enterPassword                           
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- enterPassword -->
-        <test-method status="PASS" signature="gogleButtonInvisible()[pri:13, instance:steps.LogIn@15eb5ee5]" name="gogleButtonInvisible" duration-ms="47" started-at="2018-12-11T20:21:52Z" description="Check if google button is invisible" finished-at="2018-12-11T20:21:53Z">
+        <test-method status="PASS" signature="gogleButtonInvisible()[pri:13, instance:steps.LogIn@553f17c]" name="gogleButtonInvisible" duration-ms="57" started-at="2018-12-11T20:44:45Z" description="Check if google button is invisible" finished-at="2018-12-11T20:44:45Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:45 : Test Passed               : gogleButtonInvisible                    
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:44:45 : Test Passed               : gogleButtonInvisible                    
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- gogleButtonInvisible -->
-        <test-method status="PASS" signature="clickOnCreateNewAccountButton()[pri:14, instance:steps.LogIn@15eb5ee5]" name="clickOnCreateNewAccountButton" duration-ms="25730" started-at="2018-12-11T20:21:53Z" description="Click on create new account button" finished-at="2018-12-11T20:22:18Z">
+        <test-method status="PASS" signature="clickOnCreateNewAccountButton()[pri:14, instance:steps.LogIn@553f17c]" name="clickOnCreateNewAccountButton" duration-ms="30492" started-at="2018-12-11T20:44:45Z" description="Click on create new account button" finished-at="2018-12-11T20:45:16Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:45:16 : Test Passed               : clickOnCreateNewAccountButton           
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:45:16 : Test Passed               : clickOnCreateNewAccountButton           
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- clickOnCreateNewAccountButton -->
-        <test-method status="PASS" signature="logout()[pri:15, instance:steps.LogIn@15eb5ee5]" name="logout" duration-ms="2389" started-at="2018-12-11T20:22:18Z" description="Logout" finished-at="2018-12-11T20:22:21Z">
+        <test-method status="PASS" signature="logout()[pri:15, instance:steps.LogIn@553f17c]" name="logout" duration-ms="3165" started-at="2018-12-11T20:45:16Z" description="Logout" finished-at="2018-12-11T20:45:19Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:45:19 : Test Passed               : logout                                  
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:45:19 : Test Passed               : logout                                  
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="navigateToTrelloSite()[pri:16, instance:steps.LogIn@15eb5ee5]" name="navigateToTrelloSite" duration-ms="1996" started-at="2018-12-11T20:22:21Z" description="Navigate to Trello site" finished-at="2018-12-11T20:22:23Z">
+        <test-method status="PASS" signature="navigateToTrelloSite()[pri:16, instance:steps.LogIn@553f17c]" name="navigateToTrelloSite" duration-ms="1636" started-at="2018-12-11T20:45:19Z" description="Navigate to Trello site" finished-at="2018-12-11T20:45:21Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:45:21 : Test Passed               : navigateToTrelloSite                    
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:45:21 : Test Passed               : navigateToTrelloSite                    
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- navigateToTrelloSite -->
-        <test-method status="PASS" signature="logInWithEmptyFields()[pri:17, instance:steps.LogIn@15eb5ee5]" name="logInWithEmptyFields" duration-ms="126" started-at="2018-12-11T20:22:23Z" description="Try to log in withempty fields" finished-at="2018-12-11T20:22:23Z">
+        <test-method status="PASS" signature="logInWithEmptyFields()[pri:17, instance:steps.LogIn@553f17c]" name="logInWithEmptyFields" duration-ms="367" started-at="2018-12-11T20:45:21Z" description="Try to log in withempty fields" finished-at="2018-12-11T20:45:21Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:45:21 : Test Passed               : logInWithEmptyFields                    
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:45:21 : Test Passed               : logInWithEmptyFields                    
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- logInWithEmptyFields -->
-        <test-method status="PASS" signature="logInWithWrongEmail()[pri:18, instance:steps.LogIn@15eb5ee5]" name="logInWithWrongEmail" duration-ms="1300" started-at="2018-12-11T20:22:23Z" description="Try to log in with not existing e-mail adress" finished-at="2018-12-11T20:22:24Z">
+        <test-method status="PASS" signature="logInWithWrongEmail()[pri:18, instance:steps.LogIn@553f17c]" name="logInWithWrongEmail" duration-ms="1415" started-at="2018-12-11T20:45:21Z" description="Try to log in with not existing e-mail adress" finished-at="2018-12-11T20:45:23Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:45:23 : Test Passed               : logInWithWrongEmail                     
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:45:23 : Test Passed               : logInWithWrongEmail                     
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- logInWithWrongEmail -->
-        <test-method status="PASS" signature="logInWithWrongPassword()[pri:19, instance:steps.LogIn@15eb5ee5]" name="logInWithWrongPassword" duration-ms="1373" started-at="2018-12-11T20:22:24Z" description="Try to log in with incorrect password" finished-at="2018-12-11T20:22:25Z">
+        <test-method status="PASS" signature="logInWithWrongPassword()[pri:19, instance:steps.LogIn@553f17c]" name="logInWithWrongPassword" duration-ms="1441" started-at="2018-12-11T20:45:23Z" description="Try to log in with incorrect password" finished-at="2018-12-11T20:45:24Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:45:24 : Test Passed               : logInWithWrongPassword                  
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:45:24 : Test Passed               : logInWithWrongPassword                  
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- logInWithWrongPassword -->
-        <test-method status="PASS" signature="logIn()[pri:20, instance:steps.LogIn@15eb5ee5]" name="logIn" duration-ms="22312" started-at="2018-12-11T20:22:25Z" description="Log in" finished-at="2018-12-11T20:22:48Z">
+        <test-method status="PASS" signature="logIn()[pri:20, instance:steps.LogIn@553f17c]" name="logIn" duration-ms="429" started-at="2018-12-11T20:45:24Z" description="Log in" finished-at="2018-12-11T20:45:24Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+11/12/2018 20:45:24 : Test Passed               : logIn                                   
+]]>
+            </line>
+            <line>
+              <![CDATA[
+11/12/2018 20:45:24 : Test Passed               : logIn                                   
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:steps.LogIn@15eb5ee5]" name="tearDown" is-config="true" duration-ms="648" started-at="2018-12-11T20:22:48Z" finished-at="2018-12-11T20:22:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:steps.LogIn@553f17c]" name="tearDown" is-config="true" duration-ms="1105" started-at="2018-12-11T20:45:25Z" finished-at="2018-12-11T20:45:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- steps.LogIn -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Login into Trello test -->
+  </suite> <!-- Trello -test suite -->
 </testng-results>
