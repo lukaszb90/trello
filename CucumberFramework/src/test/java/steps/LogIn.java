@@ -14,24 +14,25 @@ public class LogIn extends RegisterAccountSteps {
 	public void navigateToTrelloSite() throws InterruptedException {
 		RegisterAccountSteps.navigateToTrelloWebsite();
 	}
-	
+
 	@Test(priority = 17, description = "Try to log in withempty fields")
-	public static void logInWithEmptyFields () {
+	public static void logInWithEmptyFields() {
 		driver.findElement(By.cssSelector(SelectorsResources.LOG_IN_BUTTON)).click();
 		Assert.assertTrue(driver.findElement(By.cssSelector(SelectorsResources.ERROR_MESSAGE)).isDisplayed());
 	}
-	
+
 	@Test(priority = 18, description = "Try to log in with not existing e-mail adress")
-	public static void logInWithWrongEmail () throws InterruptedException {
-		driver.findElement(By.cssSelector(SelectorsResources.USER_INPUT)).sendKeys("unexisting"+RegisterAccountSteps.number+"@gmail.com");
+	public static void logInWithWrongEmail() throws InterruptedException {
+		driver.findElement(By.cssSelector(SelectorsResources.USER_INPUT))
+				.sendKeys("unexisting" + RegisterAccountSteps.number + "@gmail.com");
 		driver.findElement(By.cssSelector(SelectorsResources.LOG_IN_BUTTON)).click();
 		Thread.sleep(1000);
 		String errorMsg = driver.findElement(By.cssSelector(SelectorsResources.ERROR_MESSAGE)).getText().trim();
 		Assert.assertEquals("There isn't an account for this email", errorMsg);
 	}
-	
+
 	@Test(priority = 19, description = "Try to log in with incorrect password")
-	public static void logInWithWrongPassword () throws InterruptedException {
+	public static void logInWithWrongPassword() throws InterruptedException {
 		driver.findElement(By.cssSelector(SelectorsResources.PASSWORD)).sendKeys("wrongPassword");
 		WebElement userInput = driver.findElement(By.cssSelector(SelectorsResources.USER_INPUT));
 		userInput.clear();

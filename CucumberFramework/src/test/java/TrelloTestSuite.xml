@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Trello -test suite" verbose="1">
+  
+  	<!--Parameters-->
+	<parameter name="browserOption"  value="1"/>
+	
+	<!--Custom test listener-->
+	<listeners>
+		<listener class-name="resources.TestListener" />
+	</listeners>
+  
+   <test name="Login into Trello test" preserve-order="true">
+  	<classes>
+  		<class name="steps.LogIn" />
+  	</classes>
+  </test>
+ 
+
+</suite>
+    	

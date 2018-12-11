@@ -18,11 +18,10 @@ public class SelectorsResources {
 	public static final String BOARD_NAME_INPUT = "#content > form > div.first-board-column.first-board-content-wrapper > div.first-board-content > div.first-board-text-wrapper > div > div.board-name > input";
 	public static final String INITIALS_ICON = "span.member > span:nth-child(1)";
 	public static final String LOGOUT = ".js-logout";
-	
+
 	public static final String FIRST_INPUT_BOARD = "#content > form > div.first-board-column.first-board-content-wrapper > div.first-board-content > div.first-board-text-wrapper > div > div.card-name > input:nth-child(4)";
 	public static final String NOW_YOU_ARE_PRO_BUTTON = "#content > form > div.first-board-column.first-board-content-wrapper > div.first-board-footer-wrapper > div.first-board-continue-footer.submit-footer.is-active.js-submit > p";
-	
-	
+
 	public static final String USER_INPUT = "#user";
 	public static final String PASSWORD = "#password";
 	public static final String LOG_IN_BUTTON = "#login";
