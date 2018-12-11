@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="13" passed="13">
+<testng-results skipped="0" failed="0" total="18" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="64877" started-at="2018-12-10T23:09:05Z" finished-at="2018-12-10T23:10:09Z">
+  <suite name="Default suite" duration-ms="76128" started-at="2018-12-11T19:21:32Z" finished-at="2018-12-11T19:22:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="64877" started-at="2018-12-10T23:09:05Z" finished-at="2018-12-10T23:10:09Z">
-      <class name="steps.RegisterAccountSteps">
-        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:steps.RegisterAccountSteps@6ca8564a]" name="init" is-config="true" duration-ms="4613" started-at="2018-12-11T00:09:00Z" finished-at="2018-12-11T00:09:05Z">
+    <test name="Default test" duration-ms="76128" started-at="2018-12-11T19:21:32Z" finished-at="2018-12-11T19:22:48Z">
+      <class name="steps.LogIn">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:steps.LogIn@15eb5ee5]" name="init" is-config="true" duration-ms="5354" started-at="2018-12-11T20:21:26Z" finished-at="2018-12-11T20:21:32Z">
           <params>
             <param index="0">
               <value>
@@ -18,63 +18,83 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="navigateToTrelloWebsite()[pri:3, instance:steps.RegisterAccountSteps@6ca8564a]" name="navigateToTrelloWebsite" duration-ms="4310" started-at="2018-12-11T00:09:05Z" description="Navigate to Trello website" finished-at="2018-12-11T00:09:09Z">
+        <test-method status="PASS" signature="navigateToTrelloWebsite()[pri:3, instance:steps.LogIn@15eb5ee5]" name="navigateToTrelloWebsite" duration-ms="6764" started-at="2018-12-11T20:21:32Z" description="Navigate to Trello website" finished-at="2018-12-11T20:21:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToTrelloWebsite -->
-        <test-method status="PASS" signature="closeGDPR()[pri:4, instance:steps.RegisterAccountSteps@6ca8564a]" name="closeGDPR" duration-ms="245" started-at="2018-12-11T00:09:09Z" description="Close GDPR bar if present" finished-at="2018-12-11T00:09:09Z">
+        <test-method status="PASS" signature="closeGDPR()[pri:4, instance:steps.LogIn@15eb5ee5]" name="closeGDPR" duration-ms="85" started-at="2018-12-11T20:21:38Z" description="Close GDPR bar if present" finished-at="2018-12-11T20:21:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeGDPR -->
-        <test-method status="PASS" signature="switchLanguageToEnglish()[pri:5, instance:steps.RegisterAccountSteps@6ca8564a]" name="switchLanguageToEnglish" duration-ms="6196" started-at="2018-12-11T00:09:09Z" description="Switch langauge to English" finished-at="2018-12-11T00:09:15Z">
+        <test-method status="PASS" signature="switchLanguageToEnglish()[pri:5, instance:steps.LogIn@15eb5ee5]" name="switchLanguageToEnglish" duration-ms="2248" started-at="2018-12-11T20:21:39Z" description="Switch langauge to English" finished-at="2018-12-11T20:21:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchLanguageToEnglish -->
-        <test-method status="PASS" signature="clickOnSignUp()[pri:6, instance:steps.RegisterAccountSteps@6ca8564a]" name="clickOnSignUp" duration-ms="5030" started-at="2018-12-11T00:09:15Z" description="Click on sign up" finished-at="2018-12-11T00:09:20Z">
+        <test-method status="PASS" signature="clickOnSignUp()[pri:6, instance:steps.LogIn@15eb5ee5]" name="clickOnSignUp" duration-ms="5268" started-at="2018-12-11T20:21:41Z" description="Click on sign up" finished-at="2018-12-11T20:21:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnSignUp -->
-        <test-method status="PASS" signature="createAccountOnEmptyField()[pri:7, instance:steps.RegisterAccountSteps@6ca8564a]" name="createAccountOnEmptyField" duration-ms="76" started-at="2018-12-11T00:09:20Z" description="Try to create account o empty fields" finished-at="2018-12-11T00:09:20Z">
+        <test-method status="PASS" signature="createAccountOnEmptyField()[pri:7, instance:steps.LogIn@15eb5ee5]" name="createAccountOnEmptyField" duration-ms="131" started-at="2018-12-11T20:21:46Z" description="Try to create account o empty fields" finished-at="2018-12-11T20:21:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccountOnEmptyField -->
-        <test-method status="PASS" signature="enterName()[pri:8, instance:steps.RegisterAccountSteps@6ca8564a]" name="enterName" duration-ms="372" started-at="2018-12-11T00:09:20Z" description="Enter name" finished-at="2018-12-11T00:09:21Z">
+        <test-method status="PASS" signature="enterName()[pri:8, instance:steps.LogIn@15eb5ee5]" name="enterName" duration-ms="205" started-at="2018-12-11T20:21:46Z" description="Enter name" finished-at="2018-12-11T20:21:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterName -->
-        <test-method status="PASS" signature="enterInvalidEmail()[pri:9, instance:steps.RegisterAccountSteps@6ca8564a]" name="enterInvalidEmail" duration-ms="3720" started-at="2018-12-11T00:09:21Z" description="Enter invaild e-mail" finished-at="2018-12-11T00:09:24Z">
+        <test-method status="PASS" signature="enterInvalidEmail()[pri:9, instance:steps.LogIn@15eb5ee5]" name="enterInvalidEmail" duration-ms="3350" started-at="2018-12-11T20:21:46Z" description="Enter invaild e-mail" finished-at="2018-12-11T20:21:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterInvalidEmail -->
-        <test-method status="PASS" signature="enterEMail()[pri:10, instance:steps.RegisterAccountSteps@6ca8564a]" name="enterEMail" duration-ms="343" started-at="2018-12-11T00:09:24Z" description="Enter e-mail" finished-at="2018-12-11T00:09:25Z">
+        <test-method status="PASS" signature="enterEMail()[pri:10, instance:steps.LogIn@15eb5ee5]" name="enterEMail" duration-ms="191" started-at="2018-12-11T20:21:50Z" description="Enter e-mail" finished-at="2018-12-11T20:21:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterEMail -->
-        <test-method status="PASS" signature="enterInvalidPassword()[pri:11, instance:steps.RegisterAccountSteps@6ca8564a]" name="enterInvalidPassword" duration-ms="2717" started-at="2018-12-11T00:09:25Z" description="Enter invalid password" finished-at="2018-12-11T00:09:28Z">
+        <test-method status="PASS" signature="enterInvalidPassword()[pri:11, instance:steps.LogIn@15eb5ee5]" name="enterInvalidPassword" duration-ms="2293" started-at="2018-12-11T20:21:50Z" description="Enter invalid password" finished-at="2018-12-11T20:21:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterInvalidPassword -->
-        <test-method status="PASS" signature="enterPassword()[pri:12, instance:steps.RegisterAccountSteps@6ca8564a]" name="enterPassword" duration-ms="374" started-at="2018-12-11T00:09:28Z" description="Enter password" finished-at="2018-12-11T00:09:28Z">
+        <test-method status="PASS" signature="enterPassword()[pri:12, instance:steps.LogIn@15eb5ee5]" name="enterPassword" duration-ms="288" started-at="2018-12-11T20:21:52Z" description="Enter password" finished-at="2018-12-11T20:21:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterPassword -->
-        <test-method status="PASS" signature="gogleButtonInvisible()[pri:13, instance:steps.RegisterAccountSteps@6ca8564a]" name="gogleButtonInvisible" duration-ms="55" started-at="2018-12-11T00:09:28Z" description="Check if google button is invisible" finished-at="2018-12-11T00:09:28Z">
+        <test-method status="PASS" signature="gogleButtonInvisible()[pri:13, instance:steps.LogIn@15eb5ee5]" name="gogleButtonInvisible" duration-ms="47" started-at="2018-12-11T20:21:52Z" description="Check if google button is invisible" finished-at="2018-12-11T20:21:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gogleButtonInvisible -->
-        <test-method status="PASS" signature="clickOnCreateNewAccountButton()[pri:14, instance:steps.RegisterAccountSteps@6ca8564a]" name="clickOnCreateNewAccountButton" duration-ms="35118" started-at="2018-12-11T00:09:28Z" description="Click on create new account button" finished-at="2018-12-11T00:10:03Z">
+        <test-method status="PASS" signature="clickOnCreateNewAccountButton()[pri:14, instance:steps.LogIn@15eb5ee5]" name="clickOnCreateNewAccountButton" duration-ms="25730" started-at="2018-12-11T20:21:53Z" description="Click on create new account button" finished-at="2018-12-11T20:22:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnCreateNewAccountButton -->
-        <test-method status="PASS" signature="logout()[pri:15, instance:steps.RegisterAccountSteps@6ca8564a]" name="logout" duration-ms="6289" started-at="2018-12-11T00:10:03Z" description="Logout" finished-at="2018-12-11T00:10:09Z">
+        <test-method status="PASS" signature="logout()[pri:15, instance:steps.LogIn@15eb5ee5]" name="logout" duration-ms="2389" started-at="2018-12-11T20:22:18Z" description="Logout" finished-at="2018-12-11T20:22:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:steps.RegisterAccountSteps@6ca8564a]" name="tearDown" is-config="true" duration-ms="1073" started-at="2018-12-11T00:10:09Z" finished-at="2018-12-11T00:10:11Z">
+        <test-method status="PASS" signature="navigateToTrelloSite()[pri:16, instance:steps.LogIn@15eb5ee5]" name="navigateToTrelloSite" duration-ms="1996" started-at="2018-12-11T20:22:21Z" description="Navigate to Trello site" finished-at="2018-12-11T20:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTrelloSite -->
+        <test-method status="PASS" signature="logInWithEmptyFields()[pri:17, instance:steps.LogIn@15eb5ee5]" name="logInWithEmptyFields" duration-ms="126" started-at="2018-12-11T20:22:23Z" description="Try to log in withempty fields" finished-at="2018-12-11T20:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithEmptyFields -->
+        <test-method status="PASS" signature="logInWithWrongEmail()[pri:18, instance:steps.LogIn@15eb5ee5]" name="logInWithWrongEmail" duration-ms="1300" started-at="2018-12-11T20:22:23Z" description="Try to log in with not existing e-mail adress" finished-at="2018-12-11T20:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithWrongEmail -->
+        <test-method status="PASS" signature="logInWithWrongPassword()[pri:19, instance:steps.LogIn@15eb5ee5]" name="logInWithWrongPassword" duration-ms="1373" started-at="2018-12-11T20:22:24Z" description="Try to log in with incorrect password" finished-at="2018-12-11T20:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithWrongPassword -->
+        <test-method status="PASS" signature="logIn()[pri:20, instance:steps.LogIn@15eb5ee5]" name="logIn" duration-ms="22312" started-at="2018-12-11T20:22:25Z" description="Log in" finished-at="2018-12-11T20:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:steps.LogIn@15eb5ee5]" name="tearDown" is-config="true" duration-ms="648" started-at="2018-12-11T20:22:48Z" finished-at="2018-12-11T20:22:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- steps.RegisterAccountSteps -->
+      </class> <!-- steps.LogIn -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
