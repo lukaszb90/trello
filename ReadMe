@@ -1,17 +1,23 @@
 TRELLO test suite - made for recrutation puropses by Lukasz B.
 for Netguru
 
-How to launch this?
+What you will need?
+Eclipse (I am using photon but any other IDE should work too)
+Java JDK (I am using jdk1.8.0_121)
+Chrome browser
+Firefox x32 browser (might be some issues on x64 version
+
+How to launch test suite?
+Launch the IDE
 Simply pull this project and import as maven project.
 Right click on the root (top folder) and run as Maven clean
 Clean the project.
-Then click on Maven and update project.
+Then click on Maven and update project (dependencies should be uploaded).
 Run the test from created XML file = TrelloTestSuite.xml
 
 How does it works?
 If you have launched the xml file mentioned above the test should run by itself.
-Simply choose a browser you wish to run test with. (NOTE: FF x32 migh be required)
+Simply choose a browser you wish to run test with. (NOTE: FF x32 migh be required).
 Screenshots are being saved in the project so keep in mind when trying to push it somwhere else.
-
 
 Browser drivers are included.
